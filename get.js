@@ -1,0 +1,1 @@
+function getQueryVariable(r){for(var t=window.location.search.substring(1).split("&"),i=0;i<t.length;i++){var n=t[i].split("=");if(n[0]==r)return n[1]}return!1}
