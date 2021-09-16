@@ -1,0 +1,10 @@
+<VirtualHost *:8001>
+ DocumentRoot "C:\xampp\htdocs\maringngerrang"
+ ServerName localhost:8001
+ <Directory "C:\xampp\htdocs\maringngerrang">
+  Options Indexes FollowSymLinks Includes ExecCGI
+  AllowOverride All
+  Order allow,deny
+  Allow from all
+ </Directory>
+</VirtualHost>
